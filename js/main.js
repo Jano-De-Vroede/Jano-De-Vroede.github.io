@@ -252,7 +252,7 @@
     root.innerHTML = `
       <section class="page-hero">
         <p class="eyebrow">Contact</p>
-        <h1>Zeg iets.</h1>
+        <h1>Aarzel niet om mij te contacteren</h1>
       </section>
       <section class="contact-list">
         <a class="contact-row" href="mailto:${escapeHtml(site.email)}">
@@ -265,7 +265,7 @@
         </a>
         <a class="contact-row" href="${escapeHtml(site.linkedin)}">
           <span>LinkedIn</span>
-          <strong>Profiel</strong>
+          <strong>Jano De Vroede</strong>
         </a>
       </section>
     `;
