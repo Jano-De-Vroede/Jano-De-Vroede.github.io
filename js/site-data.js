@@ -6,7 +6,7 @@ window.SITE = {
   role: "IT-student",
   location: "België",
   photo: "./img/persoonlijke_foto.jpg",
-  cv: "cv.pdf",
+  cv: "./docs/CV_Jano_De_Vroede.pdf",
   email: "jano.devroede@skynet.be",
   telefoon: "0471 84 18 57",
   github: "https://github.com/Jano-De-Vroede",
