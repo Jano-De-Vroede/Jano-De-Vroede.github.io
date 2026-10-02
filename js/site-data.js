@@ -5,7 +5,7 @@ window.SITE = {
   tagline: "Systemen, netwerken en machines die ik zelf in elkaar steek.",
   role: "IT-student",
   location: "België",
-  photo: "images/jano.jpg",
+  photo: "./img/persoonlijke_foto.jpg",
   cv: "cv.pdf",
   email: "jano.devroede@skynet.be",
   telefoon: "0471 84 18 57",
