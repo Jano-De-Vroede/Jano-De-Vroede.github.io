@@ -2,7 +2,7 @@
 window.SITE = {
   name: "Jano De Vroede",
   firstName: "Jano",
-  tagline: "Systemen, netwerken en machines die ik zelf in elkaar steek.",
+  tagline: "Alles wat je moet weten over IT'er van de toekomst.",
   role: "IT-student",
   location: "België",
   photo: "./img/persoonlijke_foto.jpg",
@@ -16,14 +16,15 @@ window.SITE = {
   highlights: [
     "Systeembeheer",
     "Netwerken",
-    "Windows Server",
-    "Linux · Debian",
+    "Cybersecurity",
+    "Windows",
+    "Linux",
     "Homelab",
-    "PC-builds",
+    "PC-building",
   ],
   about: [
-    "Ik ben Jano. Ik studeer IT en besteed evenveel tijd achter een terminal als achter een schroevendraaier.",
-    "Mijn focus ligt op systeembeheer, netwerken, Windows Server, Linux (Debian) en homelab-opstellingen. Ik wil begrijpen hoe iets werkt — en het daarna zelf opnieuw bouwen, strakker.",
+    "Mijn naam is Jano De Vroede en ik ben een derdejaars student Toegepaste Informatica aan Hogent. IT is de toekomst wat maakt dat ik deel ben van die toekomst.",
+    "Mijn focus ligt op systeembeheer, netwerken, Windows Server, Linux (Debian) en homelab-opstellingen. Ik wil begrijpen hoe iets werkt — en het daarna zelf opnieuw bouwen, strakker. Er is nog veel meer dat je over mij kan leren, maar die info zal binnenkort pas beschikbaar gemaakt worden.",
   ],
   education: [
     {
@@ -41,18 +42,11 @@ window.SITE = {
   ],
   experience: [
     {
-      period: "20XX — nu",
-      title: "Functie of rol",
-      place: "Bedrijf of context",
+      period: "2024 — nu",
+      title: "Student Toegepaste Informatica",
+      place: "Hogent",
       detail:
-        "Wat deed je? Welke stack, welke verantwoordelijkheid, wat was het resultaat?",
-    },
-    {
-      period: "20XX — 20XX",
-      title: "Tweede ervaring",
-      place: "Stage, job of project",
-      detail:
-        "Korte, concrete beschrijving. Liever één sterk zinnetje dan een opsomming.",
+        "Tot nu toe is dit de enigste ervaring die ik heb binnen de IT-sector. Binnen de opleiding krijgen we een breed aanbod van verschillende technologieën en concepten. Zaken zoals: Databases, Java, n Cisco networks, Linux servers en nog vele andere zaken. Aangezien het 'toegepaste' informatica is, krijgen we vooral praktijkgerichte lessen en kunnen we ook al met heel wat zaken overweg. Binnenkort komt de stage er aan en dan zal ik zeker wat meer kennis en ervaring opdoen in een realistische omgeving.",
     },
   ],
   projects: [
@@ -73,9 +67,9 @@ window.SITE = {
     {
       number: "02",
       title: "DevOps",
-      tags: ["CI/CD", "real-live"],
+      tags: ["CI/CD", "Jenkins", "Ansible", "Server-hosting"],
       summary:
-        "Zelfde structuur. Link naar GitHub of een write-up als die er is.",
+        "Dit is het eindproject voor het derdejaar Toegepaste Informatica. Binnen dit project wordt er samengewerkt met een DEV-team om samen voor de klant een applicatie te ontwikkelen en uit te rollen op fysieke server apparatuur. Wij als OPS-team zullen leren om een buildserver te configureren en te gebruiken. Ook de samenwerking tussen twee verschillende disciplines staat centraal binnen dit project.",
       href: "",
     },
     {

@@ -30,7 +30,6 @@
     { id: "home", href: "index.html", label: "Home" },
     { id: "about", href: "about.html", label: "Over mij" },
     { id: "projects", href: "projects.html", label: "Projecten" },
-    { id: "homelab", href: "homelab.html", label: "Homelab" },
     { id: "contact", href: "contact.html", label: "Contact" },
   ];
 
@@ -124,7 +123,7 @@
         <aside class="stat-grid">
           <article>
             <strong>${String(site.projects.length).padStart(2, "0")}</strong>
-            <span>Projectkaarten klaar om in te vullen</span>
+            <span>Aantal gerealiseerde projecten</span>
           </article>
           <article>
             <strong>${String(site.homelab.nodes.length).padStart(2, "0")}</strong>
@@ -201,8 +200,8 @@
     root.innerHTML = `
       <section class="page-hero">
         <p class="eyebrow">Werk</p>
-        <h1>Projecten. Nog leeg — tot jij ze vult.</h1>
-        <p class="lede">Elke kaart komt uit <code>js/site-data.js</code>. Titel, tags, samenvatting, optionele link.</p>
+        <h1>Projecten</h1>
+        <p class="lede">Alle projecten die ik ooit al realiseerde binnen de IT-context.</p>
       </section>
       <section class="project-list">
         ${site.projects
@@ -252,7 +251,7 @@
     root.innerHTML = `
       <section class="page-hero">
         <p class="eyebrow">Contact</p>
-        <h1>Aarzel niet om mij te contacteren</h1>
+        <h1>Zoek je mij?</h1>
       </section>
       <section class="contact-list">
         <a class="contact-row" href="mailto:${escapeHtml(site.email)}">
