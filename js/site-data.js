@@ -8,6 +8,7 @@ window.SITE = {
   photo: "images/jano.jpg",
   cv: "cv.pdf",
   email: "jano.devroede@skynet.be",
+  telefoon: "0471 84 18 57",
   github: "https://github.com/Jano-De-Vroede",
   githubLabel: "Jano-De-Vroede",
   linkedin:
