@@ -58,25 +58,32 @@ window.SITE = {
   projects: [
     {
       number: "01",
-      title: "Project één",
-      tags: ["tag", "tag"],
+      title: "System Engineering Project",
+      tags: [
+        "Systemen",
+        "Netwerken",
+        "Linux",
+        "Windows server",
+        "Virtualisatie",
+      ],
       summary:
-        "Beschrijf het probleem, wat jij bouwde, en wat iemand ervan moet onthouden.",
+        "In dit project bouwden we een zelf een bedrijfsnetwerk uit met behulp van virtualisatie en fysieke netwerkhardware. De opdracht was om een zo realistisch mogelijk bedrijfsnetwerk te ontwerpen en te deployen. Hierbij maakten we gberuik van verschillende technologieën zoals: Windows, Cisco, Linux, Virtualbox... Deze ervaring heeft me heel wat zaken bijgeleerd. ",
       href: "",
     },
     {
       number: "02",
-      title: "Project twee",
-      tags: ["tag", "tag"],
+      title: "DevOps",
+      tags: ["CI/CD", "real-live"],
       summary:
         "Zelfde structuur. Link naar GitHub of een write-up als die er is.",
       href: "",
     },
     {
       number: "03",
-      title: "Project drie",
-      tags: ["tag", "tag"],
-      summary: "Kopieer een kaart in js/site-data.js om er meer toe te voegen.",
+      title: "Homelab",
+      tags: ["Personal project", "Linux", "Self-hosting"],
+      summary:
+        "Ik heb een oude desktop omgebouwd tot mijn eigen homelab. Zowel de hardware als de software heb ik zelf in elkaar geflanst. Dit is puur een hobby project en handig om wat te experimenteren. Zo heb ik hier ook mijn eigen minecraft server op draaien en maak ik gebruik van Tailscale om de server vanop afstand te kunnen bereiken.",
       href: "",
     },
   ],
