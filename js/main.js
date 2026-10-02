@@ -1,4 +1,12 @@
 (function () {
+  const thisScript = document.currentScript;
+  if (thisScript && thisScript.src) {
+    const css = document.createElement("link");
+    css.rel = "stylesheet";
+    css.href = new URL("../css/styles.css?v=20261002", thisScript.src).href;
+    document.head.appendChild(css);
+  }
+
   const site = window.SITE;
   if (!site) return;
 
@@ -85,7 +93,6 @@
   };
 
   (renderers[page] || renderHome)(root);
-  requestAnimationFrame(() => document.body.classList.add("is-ready"));
 
   function renderHome(root) {
     root.innerHTML = `

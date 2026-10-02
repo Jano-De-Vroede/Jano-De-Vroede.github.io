@@ -42,7 +42,10 @@ body::before {
   position: fixed;
   inset: 0;
   pointer-events: none;
-  background-image: radial-gradient(rgba(244, 241, 232, 0.045) 1px, transparent 1px);
+  background-image: radial-gradient(
+    rgba(244, 241, 232, 0.045) 1px,
+    transparent 1px
+  );
   background-size: 18px 18px;
   mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), transparent 70%);
   z-index: 0;
@@ -82,14 +85,6 @@ code {
   width: min(var(--max), calc(100% - var(--pad) * 2));
   margin: 0 auto;
   padding-bottom: 5rem;
-  opacity: 0;
-  transform: translateY(12px);
-  transition: opacity 0.5s ease, transform 0.5s ease;
-}
-
-body.is-ready #app {
-  opacity: 1;
-  transform: none;
 }
 
 .site-header {
@@ -114,12 +109,12 @@ body.is-ready #app {
   font-size: 1.05rem;
 }
 
-  .site-nav {
-    display: flex;
-    align-items: center;
-    gap: 1.35rem;
-    z-index: 30;
-  }
+.site-nav {
+  display: flex;
+  align-items: center;
+  gap: 1.35rem;
+  z-index: 30;
+}
 
 .site-nav a {
   text-decoration: none;
@@ -232,7 +227,9 @@ body.is-ready #app {
   padding: 0.85rem 1.2rem;
   border-radius: 999px;
   border: 1px solid transparent;
-  transition: transform 0.2s ease, background 0.2s ease;
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease;
 }
 
 .btn:hover {
@@ -443,7 +440,9 @@ body.is-ready #app {
   border-radius: var(--radius);
   background: var(--bg-2);
   text-decoration: none;
-  transition: border-color 0.2s ease, transform 0.2s ease;
+  transition:
+    border-color 0.2s ease,
+    transform 0.2s ease;
 }
 
 .project-card:hover,
@@ -586,7 +585,6 @@ body.is-ready #app {
 
 @media (prefers-reduced-motion: reduce) {
   .marquee-track,
-  #app,
   .btn,
   .project-card {
     animation: none;
