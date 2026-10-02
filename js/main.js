@@ -50,7 +50,7 @@
         ${navItems
           .map(
             (item) =>
-              `<a href="${item.href}"${item.id === page ? ' aria-current="page"' : ""}>${item.label}</a>`
+              `<a href="${item.href}"${item.id === page ? ' aria-current="page"' : ""}>${item.label}</a>`,
           )
           .join("")}
         <a class="nav-cv" href="${escapeHtml(site.cv)}">CV</a>
@@ -99,9 +99,8 @@
       <section class="hero">
         <p class="eyebrow">${escapeHtml(site.role)} · ${escapeHtml(site.location)}</p>
         <h1>
-          <span>Niet alleen</span>
-          <span class="hero-accent">leren.</span>
-          <span>Ook bouwen.</span>
+          <span>Digitaal</span>
+          <span>Portfolio</span>
         </h1>
         <p class="lede">${escapeHtml(site.tagline)}</p>
         <div class="hero-actions">
@@ -242,7 +241,7 @@
             <h2>${escapeHtml(node.name)}</h2>
             <p>${escapeHtml(node.detail)}</p>
           </article>
-        `
+        `,
           )
           .join("")}
       </section>
