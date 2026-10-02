@@ -259,6 +259,10 @@
           <span>E-mail</span>
           <strong>${escapeHtml(site.email)}</strong>
         </a>
+        <a class="contact-row" href="tel:${escapeHtml(site.telefoon)}">
+          <span>Telefoon</span>
+          <strong>${escapeHtml(site.telefoon)}</strong>
+        </a>
         <a class="contact-row" href="${escapeHtml(site.github)}">
           <span>GitHub</span>
           <strong>${escapeHtml(site.githubLabel)}</strong>
