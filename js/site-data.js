@@ -3,14 +3,15 @@ window.SITE = {
   name: "Jano De Vroede",
   firstName: "Jano",
   tagline: "Systemen, netwerken en machines die ik zelf in elkaar steek.",
-  role: "IT-student & homelab-bouwer",
+  role: "IT-student",
   location: "België",
   photo: "images/jano.jpg",
   cv: "cv.pdf",
-  email: "jouw.email@example.com",
+  email: "jano.devroede@skynet.be",
   github: "https://github.com/Jano-De-Vroede",
   githubLabel: "Jano-De-Vroede",
-  linkedin: "https://www.linkedin.com/in/jouw-profiel/",
+  linkedin:
+    "https://www.linkedin.com/in/jano-de-vroede-59240b389/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BCQDoGp7LQ%2FGYnK3KpJPBwQ%3D%3D",
   highlights: [
     "Systeembeheer",
     "Netwerken",
@@ -25,10 +26,16 @@ window.SITE = {
   ],
   education: [
     {
-      period: "20XX — nu",
-      title: "Jouw opleiding",
-      school: "School · campus · stad",
-      detail: "Vul hier studierichting, jaar en eventuele specialisatie in.",
+      period: "2017 — 2023",
+      title: "Economie Wiskunde",
+      school: "Stella Matutina College",
+      detail: "Eindresultaat 80%",
+    },
+    {
+      period: "2024 — nu",
+      title: "Bachelor Toegepaste Informatica",
+      school: "Hogent Campus Aalst",
+      detail: "Specialisatie Systeem- en netwerkbeheer",
     },
   ],
   experience: [
@@ -36,13 +43,15 @@ window.SITE = {
       period: "20XX — nu",
       title: "Functie of rol",
       place: "Bedrijf of context",
-      detail: "Wat deed je? Welke stack, welke verantwoordelijkheid, wat was het resultaat?",
+      detail:
+        "Wat deed je? Welke stack, welke verantwoordelijkheid, wat was het resultaat?",
     },
     {
       period: "20XX — 20XX",
       title: "Tweede ervaring",
       place: "Stage, job of project",
-      detail: "Korte, concrete beschrijving. Liever één sterk zinnetje dan een opsomming.",
+      detail:
+        "Korte, concrete beschrijving. Liever één sterk zinnetje dan een opsomming.",
     },
   ],
   projects: [
@@ -77,7 +86,8 @@ window.SITE = {
       {
         name: "Debian host",
         role: "Basis van de lab",
-        detail: "SSH, firewall, updates, hardening. Vul je echte hostname en rol in.",
+        detail:
+          "SSH, firewall, updates, hardening. Vul je echte hostname en rol in.",
       },
       {
         name: "Windows Server",
